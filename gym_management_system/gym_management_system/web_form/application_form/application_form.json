@@ -1,0 +1,112 @@
+{
+ "accept_payment": 0, 
+ "allow_comments": 0, 
+ "allow_delete": 0, 
+ "allow_edit": 1, 
+ "allow_incomplete": 1, 
+ "allow_multiple": 0, 
+ "allow_print": 0, 
+ "amount": 0.0, 
+ "amount_based_on_field": 0, 
+ "creation": "2018-07-28 15:18:00.178467", 
+ "doc_type": "Application Form", 
+ "docstatus": 0, 
+ "doctype": "Web Form", 
+ "idx": 0, 
+ "introduction_text": "", 
+ "is_standard": 1, 
+ "login_required": 1, 
+ "max_attachment_size": 0, 
+ "modified": "2018-07-28 15:22:08.458588", 
+ "modified_by": "Administrator", 
+ "module": "Gym Management System", 
+ "name": "application-form", 
+ "owner": "Administrator", 
+ "payment_button_label": "Buy Now", 
+ "published": 1, 
+ "route": "application", 
+ "show_sidebar": 1, 
+ "sidebar_items": [], 
+ "success_url": "/application-form", 
+ "title": "application form", 
+ "web_form_fields": [
+  {
+   "fieldname": "membership_id", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Membership Id", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "", 
+   "fieldtype": "Section Break", 
+   "hidden": 0, 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "member_name", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Member Name", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "address", 
+   "fieldtype": "Text", 
+   "hidden": 0, 
+   "label": "Address", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "dob", 
+   "fieldtype": "Date", 
+   "hidden": 0, 
+   "label": "DOB", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "", 
+   "fieldtype": "Column Break", 
+   "hidden": 0, 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "email", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Email", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }, 
+  {
+   "fieldname": "contact_number", 
+   "fieldtype": "Data", 
+   "hidden": 0, 
+   "label": "Contact number ", 
+   "max_length": 0, 
+   "max_value": 0, 
+   "read_only": 0, 
+   "reqd": 0
+  }
+ ]
+}
